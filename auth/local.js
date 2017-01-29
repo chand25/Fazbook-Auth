@@ -7,10 +7,11 @@ const authHelpers = require('../auth/auth-helpers');
 
 const options = {};
 
+// start my code
 init();
 
 passport.use(new LocalStrategy(options, (username, password, done) => {
-  // check to see if the username exists
+  // check database to see if username exists
   models.User.findAll({
     where: {
       username
