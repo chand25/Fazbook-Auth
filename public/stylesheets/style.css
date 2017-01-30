@@ -1,6 +1,7 @@
 header {
-  background-color: teal;
+
   color: white;
+  margin: 0 auto;
 }
 
 header .container h1 {
